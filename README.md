@@ -29,6 +29,6 @@ Basic Portfolio with the addition of Mobile responsiveness
 
 # What does 640px look like:
 <!-- ![Getting Started](./assets/images/profile.jpg) -->
-![About Page](./assets/images/profile.jpg)
+![About Page](about.png)
 
 
