@@ -215,8 +215,82 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media only screen and (min-width: 980px) {
-  body {
-  background-color: black;
-  }  
+/* for max-width:980px*/
+@media only screen and (max-width: 980px) {
+  .main-section {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    margin: 0 0 20px;
+    
+  }
+  
+body {
+  font-size: 18px;
+  line-height: 25px;
+} 
+nav {
+  margin-right:25px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .container {
+    width: 100%;
+    /* max-width: 960px; */
+    margin: 0 70px;
+    clear: both;
+  }
+  .main-section {
+    float: left;
+    width: 90%;
+    padding: 15px;    
+  }
+  
+body {
+  font-size: 14px;
+  line-height: 25px;
+} 
+nav {
+  margin-right:85px;
+}
+h1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+#logo {
+  float: left;
+  width: 200px;
+  height: 70px;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 75%;
+    margin: 0 0 10px 5px;
+    
+  }
+  .main-section {
+    float: right;
+    width: 100%;
+    padding: 15px;    
+  }
+  .auth-image {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+#logo {
+  float: left;
+  width: 640px;
+}
+
 }
