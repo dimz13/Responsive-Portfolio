@@ -214,6 +214,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+  margin-left: 45px;
 }
 /* for max-width:980px*/
 @media only screen and (max-width: 980px) {
@@ -273,6 +274,7 @@ h1 {
 @media only screen and (max-width: 640px) {
   .container {
     width: 75%;
+    max-width:640;
     margin: 0 0 10px 5px;
     
   }
@@ -292,5 +294,14 @@ h1 {
   float: left;
   width: 640px;
 }
+#contact-form li {
+  margin-bottom: 10px;
+  margin-left:10px
+}
 
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 10px;
+  margin-left: 50px;
+}
 }
