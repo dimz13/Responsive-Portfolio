@@ -5,9 +5,9 @@ Basic Portfolio with the addition of Mobile responsiveness
 
 ## Table of Contents
 
-- [About Me](#aboutme)
-- [Portfolio](#portfolio)
-- [Contact](#contact)
+- [About Me](index.html)
+- [Portfolio](portfolio)
+- [Contact](contact)
 
 ## Tools Used
 
